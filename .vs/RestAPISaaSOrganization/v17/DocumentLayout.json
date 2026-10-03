@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\campaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\campaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\controllers\\donationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\controllers\\donationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\controllers\\menugroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\controllers\\menugroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\menurolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\menurolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\menugrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\menugrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\foundationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\foundationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\models\\entities\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\models\\entities\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\models\\entities\\approvalrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\models\\entities\\approvalrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|c:\\programing\\project 7\\be\\restapisaasorganization\\restapisaasorganization\\controllers\\foundationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AA35064-7F4D-4350-B7C6-6B11880675FC}|RestAPISaaSOrganization\\RestAPISaaSOrganization.csproj|solutionrelative:restapisaasorganization\\controllers\\foundationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\Menu.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Models\\Entities\\Menu.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\Menu.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Models\\Entities\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:36:27.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DonationsController.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\DonationsController.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Controllers\\DonationsController.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\DonationsController.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Controllers\\DonationsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:36:10.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuGroupsController.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\MenuGroupsController.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Controllers\\MenuGroupsController.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\MenuGroupsController.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Controllers\\MenuGroupsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:25:24.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuRoleRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\MenuRoleRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\MenuRoleRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\MenuRoleRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\MenuRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:25:16.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CampaignRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\CampaignRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\CampaignRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\CampaignRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\CampaignRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:24:55.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuGroupRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\MenuGroupRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\MenuGroupRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\MenuGroupRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\MenuGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:25:07.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoundationRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\FoundationRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\FoundationRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\FoundationRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\FoundationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:25:03.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DonationRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\DonationRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\DonationRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\DonationRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\DonationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:24:41.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:24:22.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Donation.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\Donation.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Models\\Entities\\Donation.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\Donation.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Models\\Entities\\Donation.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:19:11.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAEAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T09:48:20.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApprovalRole.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\ApprovalRole.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Models\\Entities\\ApprovalRole.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Models\\Entities\\ApprovalRole.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Models\\Entities\\ApprovalRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T09:46:15.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoundationsController.cs",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\FoundationsController.cs",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\Controllers\\FoundationsController.cs",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\Controllers\\FoundationsController.cs",
+              "RelativeToolTip": "RestAPISaaSOrganization\\Controllers\\FoundationsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T09:14:27.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\appsettings.json",
+              "RelativeDocumentMoniker": "RestAPISaaSOrganization\\appsettings.json",
+              "ToolTip": "C:\\Programing\\Project 7\\BE\\RestAPISaaSOrganization\\RestAPISaaSOrganization\\appsettings.json",
+              "RelativeToolTip": "RestAPISaaSOrganization\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-15T07:05:28.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2654 @@
+[
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "GetDevAccounts",
+    "RelativePath": "api/Auth/dev-accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.ForgotPasswordRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.LoginRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.RegisterRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "ResendOtp",
+    "RelativePath": "api/Auth/resend-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.ForgotPasswordRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.ResetPasswordRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/Auth/validate-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.AuthController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/Auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonModel",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.VerifyOtpRequestDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Campaigns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "Create",
+    "RelativePath": "api/Campaigns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateCampaignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "GetById",
+    "RelativePath": "api/Campaigns/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "Edit",
+    "RelativePath": "api/Campaigns/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditCampaignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "Edit",
+    "RelativePath": "api/Campaigns/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditCampaignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "Delete",
+    "RelativePath": "api/Campaigns/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "GetCount",
+    "RelativePath": "api/Campaigns/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "Delete",
+    "RelativePath": "api/Campaigns/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "GetByFoundation",
+    "RelativePath": "api/Campaigns/foundation/{foundationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.CampaignsController",
+    "Method": "GetBySlug",
+    "RelativePath": "api/Campaigns/slug/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DashboardController",
+    "Method": "GetStats",
+    "RelativePath": "api/Dashboard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Donations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "Create",
+    "RelativePath": "api/Donations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateDonationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Donations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "IncrementAamiin",
+    "RelativePath": "api/Donations/{id}/aamiin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "Webhook",
+    "RelativePath": "api/Donations/{id}/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "payload",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetByCampaign",
+    "RelativePath": "api/Donations/campaign/{campaignId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campaignId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetCount",
+    "RelativePath": "api/Donations/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetByInvoice",
+    "RelativePath": "api/Donations/invoice/{invoiceNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.DonationsController",
+    "Method": "GetByUser",
+    "RelativePath": "api/Donations/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "foundationId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "GetAll",
+    "RelativePath": "api/FoundationNavbars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "Create",
+    "RelativePath": "api/FoundationNavbars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateFoundationNavbarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "Update",
+    "RelativePath": "api/FoundationNavbars/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditFoundationNavbarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "Delete",
+    "RelativePath": "api/FoundationNavbars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "BulkSync",
+    "RelativePath": "api/FoundationNavbars/bulk-sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.BulkSyncFoundationNavbarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "GetByFoundation",
+    "RelativePath": "api/FoundationNavbars/foundation/{foundationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "GetPublicNavbar",
+    "RelativePath": "api/FoundationNavbars/public/{tenantOrSlug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantOrSlug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationNavbarsController",
+    "Method": "ResetDefault",
+    "RelativePath": "api/FoundationNavbars/reset-default/{foundationId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Foundations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "Create",
+    "RelativePath": "api/Foundations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateFoundationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Foundations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "Edit",
+    "RelativePath": "api/Foundations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditFoundationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Foundations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "UpdateUsers",
+    "RelativePath": "api/Foundations/{id}/users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "userIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "UpdateUsers",
+    "RelativePath": "api/Foundations/{id}/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "userIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "GetCount",
+    "RelativePath": "api/Foundations/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Foundations/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "GetByDomain",
+    "RelativePath": "api/Foundations/domain/{domain}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "domain",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationsController",
+    "Method": "GetBySlug",
+    "RelativePath": "api/Foundations/slug/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/FoundationTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "Create",
+    "RelativePath": "api/FoundationTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateFoundationTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "GetById",
+    "RelativePath": "api/FoundationTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "Update",
+    "RelativePath": "api/FoundationTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.UpdateFoundationTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/FoundationTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/FoundationTypes/{id}/toggle-status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.FoundationTypesController",
+    "Method": "GetCount",
+    "RelativePath": "api/FoundationTypes/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "Create",
+    "RelativePath": "api/Groups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsOpenDefault",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "GetById",
+    "RelativePath": "api/Groups/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "Edit",
+    "RelativePath": "api/Groups/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsOpenDefault",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "Edit",
+    "RelativePath": "api/Groups/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsOpenDefault",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "Delete",
+    "RelativePath": "api/Groups/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "ToggleDefaultOpen",
+    "RelativePath": "api/Groups/{id}/toggle-default-open",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "isOpen",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "ToggleDefaultOpen",
+    "RelativePath": "api/Groups/{id}/toggle-default-open",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "isOpen",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.GroupsController",
+    "Method": "GetCount",
+    "RelativePath": "api/Groups/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "GetAll",
+    "RelativePath": "api/MenuGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "Create",
+    "RelativePath": "api/MenuGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GroupId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "GetById",
+    "RelativePath": "api/MenuGroups/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "Edit",
+    "RelativePath": "api/MenuGroups/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "Edit",
+    "RelativePath": "api/MenuGroups/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "Delete",
+    "RelativePath": "api/MenuGroups/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/MenuGroups/{id}/order",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/MenuGroups/{id}/order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuGroupsController",
+    "Method": "GetByGroupId",
+    "RelativePath": "api/MenuGroups/group/{groupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/MenuRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "Create",
+    "RelativePath": "api/MenuRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TargetType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "GetById",
+    "RelativePath": "api/MenuRoles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "Edit",
+    "RelativePath": "api/MenuRoles/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "Edit",
+    "RelativePath": "api/MenuRoles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MenuId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "Delete",
+    "RelativePath": "api/MenuRoles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "GetCount",
+    "RelativePath": "api/MenuRoles/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "Delete",
+    "RelativePath": "api/MenuRoles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenuRolesController",
+    "Method": "GetByRole",
+    "RelativePath": "api/MenuRoles/role/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "GetAll",
+    "RelativePath": "api/Menus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationTypeId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "Create",
+    "RelativePath": "api/Menus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FoundationTypeId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Label",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RouteUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "Edit",
+    "RelativePath": "api/Menus/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FoundationTypeId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Label",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RouteUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "Edit",
+    "RelativePath": "api/Menus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FoundationTypeId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Label",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RouteUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "Delete",
+    "RelativePath": "api/Menus/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "GetCount",
+    "RelativePath": "api/Menus/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.MenusController",
+    "Method": "Delete",
+    "RelativePath": "api/Menus/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarGroupsController",
+    "Method": "GetAll",
+    "RelativePath": "api/NavbarGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarGroupsController",
+    "Method": "Create",
+    "RelativePath": "api/NavbarGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateNavbarGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarGroupsController",
+    "Method": "GetById",
+    "RelativePath": "api/NavbarGroups/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarGroupsController",
+    "Method": "Update",
+    "RelativePath": "api/NavbarGroups/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditNavbarGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarGroupsController",
+    "Method": "Delete",
+    "RelativePath": "api/NavbarGroups/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Navbars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "standaloneOnly",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarsController",
+    "Method": "Create",
+    "RelativePath": "api/Navbars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateNavbarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarsController",
+    "Method": "GetById",
+    "RelativePath": "api/Navbars/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarsController",
+    "Method": "Update",
+    "RelativePath": "api/Navbars/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditNavbarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NavbarsController",
+    "Method": "Delete",
+    "RelativePath": "api/Navbars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "GetAll",
+    "RelativePath": "api/NewsPosts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "Create",
+    "RelativePath": "api/NewsPosts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateNewsPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "GetById",
+    "RelativePath": "api/NewsPosts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "Edit",
+    "RelativePath": "api/NewsPosts/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditNewsPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "Edit",
+    "RelativePath": "api/NewsPosts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditNewsPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "Delete",
+    "RelativePath": "api/NewsPosts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "IncrementViewCount",
+    "RelativePath": "api/NewsPosts/{id}/view",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "Delete",
+    "RelativePath": "api/NewsPosts/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "GetByFoundation",
+    "RelativePath": "api/NewsPosts/foundation/{foundationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foundationId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.NewsPostsController",
+    "Method": "GetBySlug",
+    "RelativePath": "api/NewsPosts/slug/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "CreateJson",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "CreateForm",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DisplayName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "EditJson",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "EditForm",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DisplayName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "GetCount",
+    "RelativePath": "api/Roles/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "DeleteJson",
+    "RelativePath": "api/Roles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.DeleteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.RolesController",
+    "Method": "DeleteForm",
+    "RelativePath": "api/Roles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/UserRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "CreateJson",
+    "RelativePath": "api/UserRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateUserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "CreateForm",
+    "RelativePath": "api/UserRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "Delete",
+    "RelativePath": "api/UserRoles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "GetByUser",
+    "RelativePath": "api/UserRoles/by-user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "DeleteJson",
+    "RelativePath": "api/UserRoles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.DeleteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UserRolesController",
+    "Method": "DeleteForm",
+    "RelativePath": "api/UserRoles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "CreateJson",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "CreateForm",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "EditJson",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.EditUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "EditForm",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "GetCount",
+    "RelativePath": "api/Users/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "DeleteJson",
+    "RelativePath": "api/Users/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RestAPISaasBringtimeSolution.Models.DTOs.DeleteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestAPISaasBringtimeSolution.Controllers.UsersController",
+    "Method": "DeleteForm",
+    "RelativePath": "api/Users/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
